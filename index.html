@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lumina Beauty — 輝く素肌へ</title>
+  <meta name="description" content="Lumina Beauty - 敏感肌にも優しいラグジュアリーケア。初回30%OFF。レスポンシブで詳しい商品情報・Before/After・FAQを掲載しています。">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header" role="banner">
+    <div class="inner">
+      <a class="logo" href="#top">Lumina<span>Beauty</span></a>
+
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <ul>
+          <li><a href="#about">特徴</a></li>
+          <li><a href="#product">商品</a></li>
+          <li><a href="#beforeafter">Before/After</a></li>
+          <li><a href="#reviews">声</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <a class="nav-cta" href="#reserve">LINE予約</a>
+      <button class="hamburger" aria-label="メニュー" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <!-- ヒーロー（フルスクリーン） -->
+  <main>
+    <section class="hero" id="top" role="region" aria-label="ファーストビュー">
+      <picture>
+        <!-- デスクトップ用ソース（任意） -->
+        <source media="(min-width:1200px)" srcset="images/hero-wide.jpg">
+        <!-- フォールバック -->
+        <img src="images/hero.jpg" alt="やわらかな光の中に置かれたスキンケアボトル" class="hero-bg" />
+      </picture>
+
+      <div class="hero-inner">
+        <h1 class="hero-title">肌本来の輝きを、毎日に。</h1>
+        <p class="hero-sub">天然由来成分95%／敏感肌にも優しいラグジュアリーケア</p>
+
+        <div class="hero-ctas">
+          <a class="btn primary" href="#reserve">今すぐLINEで予約</a>
+          <a class="btn ghost" href="#product">商品をみる</a>
+        </div>
+
+        <div class="badge" aria-hidden="true">初回限定 <strong>30%OFF</strong>（先着100名）</div>
+      </div>
+    </section>
+
+    <!-- 特徴 -->
+    <section id="about" class="section narrow" aria-labelledby="about-title">
+      <div class="section-inner">
+        <h2 id="about-title" class="section-title">選ばれる理由</h2>
+        <div class="cards" data-animate="fade-up">
+          <article class="card">
+            <img src="images/natural.jpg" alt="ハーブと容器" loading="lazy">
+            <h3>植物由来の有効成分</h3>
+            <p>敏感肌にも配慮した低刺激処方。毎日続けられるやさしさ。</p>
+          </article>
+          <article class="card">
+            <img src="images/research.jpg" alt="研究室のイメージ" loading="lazy">
+            <h3>皮膚科学に基づく処方</h3>
+            <p>独自のナノ浸透技術で、角層までじっくり届きます。</p>
+          </article>
+          <article class="card">
+            <img src="images/safety.jpg" alt="検査・品質のイメージ" loading="lazy">
+            <h3>国内生産・品質管理</h3>
+            <p>厳しい品質基準をクリアした安心の製造工程。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 商品 -->
+    <section id="product" class="section full-bleed" aria-labelledby="product-title">
+      <div class="product-inner inner">
+        <div class="product-visual" data-animate="slide-left">
+          <img src="images/serum.jpg" alt="ブライトニングセラム" loading="lazy">
+        </div>
+        <div class="product-info" data-animate="slide-right">
+          <h2 id="product-title">ブライトニングセラム</h2>
+          <p class="lead">朝・夜1本でOK。潤い・ハリ・透明感を同時に叶えるオールインワン美容液。</p>
+
+          <ul class="points" aria-hidden="true">
+            <li>ヒアルロン酸×ビタミンC誘導体</li>
+            <li>無香料・アルコールフリー</li>
+            <li>パラベンフリー・動物実験なし</li>
+          </ul>
+
+          <p class="price">初回価格： <strong>¥3,480</strong>（通常 ¥4,980）</p>
+          <div class="product-ctas">
+            <a class="btn primary" href="#reserve">購入する（LINE）</a>
+            <a class="btn outline" href="#faq">詳しく見る</a>
+          </div>
+          <p class="note">※返金保証30日間</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before / After -->
+    <section id="beforeafter" class="section narrow" aria-labelledby="ba-title">
+      <h2 id="ba-title" class="section-title">使用前と使用後（2週間）</h2>
+      <div class="ba-grid" data-animate="fade-up">
+        <figure class="ba">
+          <img src="images/before.jpg" alt="使用前の肌" loading="lazy">
+          <figcaption>使用前</figcaption>
+        </figure>
+        <figure class="ba">
+          <img src="images/after.jpg" alt="使用後の肌" loading="lazy">
+          <figcaption>使用後（2週間）</figcaption>
+        </figure>
+      </div>
+      <p class="ba-note">※効果には個人差がありますが、当社モニター調査に基づく平均的な結果です。</p>
+    </section>
+
+    <!-- お客様の声 -->
+    <section id="reviews" class="section full-bleed soft-bg" aria-labelledby="reviews-title">
+      <div class="inner">
+        <h2 id="reviews-title" class="section-title">お客様の声</h2>
+        <ul class="reviews-list" data-animate="fade-up">
+          <li class="review-card">
+            <blockquote>「数日で肌のしっとり感が出て、化粧ノリが良くなりました」</blockquote>
+            <p class="who">30代 / 会社員</p>
+          </li>
+          <li class="review-card">
+            <blockquote>「敏感肌でも問題なく使え、安心して続けられます」</blockquote>
+            <p class="who">40代 / 主婦</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section narrow" aria-labelledby="faq-title">
+      <h2 id="faq-title" class="section-title">よくある質問</h2>
+      <div class="faq-list" data-animate="fade-up">
+        <details class="faq-item">
+          <summary>敏感肌でも使えますか？</summary>
+          <div class="answer">低刺激処方ですが、初めての方はパッチテストを推奨します。</div>
+        </details>
+        <details class="faq-item">
+          <summary>発送はどれくらいかかりますか？</summary>
+          <div class="answer">通常3営業日以内の発送となります。</div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 予約 / CTA -->
+    <section id="reserve" class="section cta-section" aria-labelledby="reserve-title">
+      <div class="inner cta-inner" data-animate="fade-up">
+        <div class="cta-left">
+          <h2 id="reserve-title">まずはお試し！<span>初回30%OFF</span></h2>
+          <p>LINEから簡単予約。今すぐクーポンを受け取る。</p>
+        </div>
+        <div class="cta-right">
+          <a class="btn primary large" href="#">LINEで予約する</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="inner">
+      <p>&copy; 2025 Lumina Beauty</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
